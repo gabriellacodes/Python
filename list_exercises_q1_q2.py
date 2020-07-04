@@ -29,5 +29,8 @@ mailing_list = [
     ]
 
 print("Question 2:")
-for x in mailing_list:
-    print(x[0],": ",x[-1])
+print(f"{mailing_list[0][0]}: {mailing_list[0][1]}")
+print(f"{mailing_list[1][0]}: {mailing_list[1][1]}")
+print(f"{mailing_list[2][0]}: {mailing_list[2][1]}")
+print(f"{mailing_list[3][0]}: {mailing_list[3][1]}")
+print(f"{mailing_list[4][0]}: {mailing_list[4][1]}")
