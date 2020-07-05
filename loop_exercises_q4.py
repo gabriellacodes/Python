@@ -11,8 +11,6 @@ for x in groceries:
     item_number = input(f'How many {x[0]} did you buy? ')
     [x][-1].append(float(item_number))
 
-# print(groceries)
-
 shopping_bill = 0
 print(f"====Izzy's Food Emporium====")
 for x in groceries:
